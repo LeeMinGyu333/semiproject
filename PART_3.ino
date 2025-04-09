@@ -4,9 +4,9 @@
 //서보모터 직접 다뤄보고 재수정 필요
 //후드 속도 조절 필요하면 핀 아날로그로 꽂아야하나?
 
-#include <SoftwareSerial.h>   //소프트웨어 시리얼 라이브러리 추가(앱)
-#include <U8glib.h>           //u8g 라이브러리 추가 ( OLED 화면 )
-#include <Servo.h>            //서보모터 라이브러리 추가
+//#include <SoftwareSerial.h>   //소프트웨어 시리얼 라이브러리 추가(앱)
+//#include <U8glib.h>           //u8g 라이브러리 추가 ( OLED 화면 )
+//#include <Servo.h>            //서보모터 라이브러리 추가
 
 Servo servo3;                  //부엌 창문 서보모터 객체 생성
 Servo servo4;                  //가스 밸브 서보모터 객체 생성
